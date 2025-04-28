@@ -1,6 +1,26 @@
 # express-todo-rest-api
 Simple RESTful APIs for managing tasks in a to-do list application using in-memory data structure (e.g., an array) to store tasks (no database required).
 
+Project Structure
+
+/express-todo-rest-api
+├── src/
+│   ├── controllers/
+│   │   └── taskController.ts
+│   ├── models/
+│   │   └── task.ts
+│   ├── routes/
+│   │   └── taskRoutes.ts
+│   ├── middlewares/
+│   │   ├── errorMiddleware.ts
+│   │   └── validateMiddleware.ts
+│   ├── app.ts
+│   └── server.ts
+├── .env
+├── package.json
+├── tsconfig.json
+
+
 // Basic installation commands
 npm init
 npm install express joi dotenv
