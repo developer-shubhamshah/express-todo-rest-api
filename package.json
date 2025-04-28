@@ -1,0 +1,11 @@
+{
+  "name": "express-todo-rest-api",
+  "version": "1.0.0",
+  "description": "Simple RESTful APIs for managing tasks in a to-do list application using in-memory data structure (e.g., an array) to store tasks (no database required).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shubham shah",
+  "license": "ISC"
+}
